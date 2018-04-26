@@ -1,31 +1,30 @@
 <!DOCTYPE html>
 <html>
-   <head>
-       <meta charset="UTF-8">
-      <!-- <link rel="stylesheet" href="styles.css"/>-->
-       <title>David Baldwin's Assignments</title>
-   </head>
-   <body>
-     <header style="padding-top: 5px;padding-bottom:1px;background:rgb( 005,006,022);text-align:center;">
-        <h1 style="color:rgb(190,190,190);font-family:fantasy;font-size:200%;text-align:center;">CS 313 Assignments</h1>
-     </header>
-     <ul style="list-style-type:none;font-family:sans-serif;font-size:70%;text-align:center;align-content:center;">
-       <a href="week02/index.php"><li style="color:rgb(033,033,033);font-size: 150%;">week02</li></a>
-       <a href="#"><li style="color:rgb(033,033,033);font-size: 150%;">week03</li></a>
-       <a href="#"><li style="color:rgb(033,033,033);font-size: 150%;">week04</li></a>
-       <a href="#"><li style="color:rgb(033,033,033);font-size: 150%;">week05</li></a>
-       <a href="#"><li style="color:rgb(033,033,033);font-size: 150%;">week06</li></a>
-       <a href="#"><li style="color:rgb(033,033,033);font-size: 150%;">week07</li></a>
-       <a href="#"><li style="color:rgb(033,033,033);font-size: 150%;">week08</li></a>
-       <a href="#"><li style="color:rgb(033,033,033);font-size: 150%;">week09</li></a>
-       <a href="#"><li style="color:rgb(033,033,033);font-size: 150%;">week10</li></a>
-       <a href="#"><li style="color:rgb(033,033,033);font-size: 150%;">week11</li></a>
-       <a href="#"><li style="color:rgb(033,033,033);font-size: 150%;">week12</li></a>
-       <a href="#"><li style="color:rgb(033,033,033);font-size: 150%;">week13</li></a>
-     </ul>
-   </body>
+  <head>
+    <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  
+      <title>My page</title>
+      
+  </head>
+  <body>
+          <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
+    <a class="navbar-brand" href="#">David Baldwin</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+        <!-- below is a collapsable navbar that turns into a button which opens the item to view from the navbar when it is collapsed -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="assignments/index.php">CS 313 Assignments</a>
+        </li>
+         
+      </ul>
+    </div>  
+  </nav>
+
+  </body>
 </html>
-
-
-
-
