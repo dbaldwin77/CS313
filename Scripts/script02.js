@@ -9,7 +9,6 @@ function changeColor() {
 	var div_id = "div1";
 	var div = document.getElementById(div_id);
 
-	// We should verify values here before we use them...
 	var color = textbox.value;
 	div.style.backgroundColor = color;
 
