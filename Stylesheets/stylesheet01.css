@@ -1,1 +1,20 @@
-.
+a {
+    list-style-type: none;
+    color: black;
+}
+.pclass {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#myCarousel {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+body {
+    background-color: rgb(212,205,191);
+}

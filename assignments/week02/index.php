@@ -7,8 +7,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     
     <title>Week 2</title>
-      <script type="text/javascript" src="../Scripts/script02.js"></script>
-      <link rel="stylesheet" href="../Stylesheets/stylesheet02.css"/>
+      <script type="text/javascript" src="../../Scripts/script02.js"></script>
+      <link rel="stylesheet" href="../../Stylesheets/stylesheet02.css"/>
 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 			<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
   </head>

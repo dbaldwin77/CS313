@@ -1,5 +1,6 @@
 .divClass {
-    background-color: rgb(212,212,212)
+    background-color: rgb(212,212,212);
+    
 }
 
 .divClass:hover {
