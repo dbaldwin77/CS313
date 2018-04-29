@@ -58,6 +58,8 @@
         </div>
           <p class="pclass">Major: Software Engineering</p>
           <p class="pclass">Semester: Spring 2018</p>
+          <input id="button1" type="button" value="Hide Schedule" >
+          <div id="div1">
           <table class="table table-striped">
             <thead>
               <tr>
@@ -88,5 +90,6 @@
               </tr>            
             </tbody>
           </table>
+          </div>
   </body>
 </html>

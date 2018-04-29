@@ -11,5 +11,6 @@ function changeColor() {
 
 	var color = textbox.value;
 	div.style.backgroundColor = color;
+   
 
 }
