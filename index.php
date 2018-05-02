@@ -20,12 +20,15 @@
            <div class="collapse navbar-collapse" id="collapsibleNavbar">
              <ul class="navbar-nav">
                <li class="nav-item">
-                 <a class="nav-link" href="assignments/index.html">CS 313 Assignments</a>
+                 <a class="nav-link" href="assignments/index.php">CS 313 Assignments</a>
                </li>
                 
              </ul>
            </div>  
          </nav>
+        <?php
+          echo "<P id=\"date\">".date("m/d/Y") . "</P>";
+        ?>
         
           <div id="myCarousel" class="carousel slide" data-ride="carousel">
     
