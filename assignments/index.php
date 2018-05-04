@@ -38,7 +38,7 @@
                 <td><a href="week02/index.html">Week 2 Team Activity</a></td>
               </tr>
               <tr>
-                <td><a href="#">Week 3 Coming Soon</a></td>
+                <td><a href="week03/index.html">Week 3 Shopping Cart</a></td>
               </tr>
               <tr>
                 <td><a href="#">Week 4 Coming Soon</a></td>

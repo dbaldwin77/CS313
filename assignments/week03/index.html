@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    <title>Pens & Pencils</title>
+      <script type="text/javascript" src="../../Scripts/script03.js"></script>
+      <link rel="stylesheet" href="../../Stylesheets/stylesheet03.css"/>	
+			<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  </head>
+  <body>
+		<nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
+    <a class="navbar-brand" href="#">Pens & Pencils</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="../index.php">Assignments</a>
+        </li>
+			</ul>
+		</div>
+		</nav><br/>
+        
+        <form action="form1.php" method="post" id="form1">
+					<fieldset>
+					<p><h3>Select from the options below:</h3></p>
+								<p>Pencils</p>
+										<select name="item1">
+										<option  selected>Pencils:</option>
+										<option>Box of 100 pencils $5.99</option>
+										<option>Box of 200 pencils $9.99</option>
+										<option>Box of 300 pencils $13.99</option>
+										<option>Box of 400 pencils $16.99</option> 
+										</select>
+										<button type="button" onclick="addToCart(document.getElementById('form1').elements.namedItem('item1').value);" >ADD TO CART</button>
+										<button type="button" onclick="removeItem1();" >REMOVE ITEM</button>
+							 <br/></br>
+							 							 	<p>	Erasers:</p>
+										<select name="item2">
+										<option  selected>Pens</option>
+										<option>Box of 5 erasers $5.99</option>
+										<option>Box of 10 erasers $9.99</option>
+										<option>Box of 15 erasers $13.99</option>
+										<option>Box of 20 erasers $16.99</option> 
+										</select>
+										<button type="button" onclick="addToCart2(document.getElementById('form1').elements.namedItem('item2').value);" >ADD TO CART</button>
+										<button type="button" onclick="removeItem2();" >REMOVE ITEM</button>
+							 <br/></br>
+							 								<p>Pens:</p>
+										<select name="item3">
+										<option  selected>Pens</option>
+										<option>Box of 10 pens $5.99</option>
+										<option>Box of 20 pens $9.99</option>
+										<option>Box of 30 pens $13.99</option>
+										<option>Box of 40 pens $16.99</option> 
+										</select>
+										<button type="button" onclick="addToCart3(document.getElementById('form1').elements.namedItem('item3').value);" >ADD TO CART</button>
+										<button type="button" onclick="removeItem3();" >REMOVE ITEM</button>
+							 <br/></br>
+							
+							 <div id="cart">
+								 <label id="label"><h3>Cart</h3></label>
+                         <table id="table1">
+                           <tr>
+                              <th>Item</th>
+                              <th>Cost </th>
+                          </tr>
+                          <tr>
+                              <td name="pencils" id="cartItem1"></td>
+                              <td id="cost1"></td>
+                          </tr>
+                          <tr>
+                              <td name="erasers" id="cartItem2"></td>
+                              <td id="cost2"></td>
+                          </tr>
+                          <tr>
+                              <td name="pens" id="cartItem3"></td>
+                              <td id="cost3"></td>
+                          </tr>
+                          <tr>
+                              <td>Tax</td>
+                              <td id="tax"></td>
+                         </tr>
+                          <tr>
+                              <td>Shipping</td>
+                              <td id="shipping"></td>
+                         </tr>
+                         <tr>
+                              <td>Total</td>
+                              <td id="total" name="myTotal"></td>
+                         </tr>
+                       </table>
+							 
+							 <input type="submit" value="Check Out">
+							 </div>
+							    <input style="visibility: hidden;" type="text"  name="itemone" id="itemOne">
+                  <input style="visibility: hidden;" type="text"  name="itemtwo" id="itemTwo">
+                  <input style="visibility: hidden;" type="text"  name="itemthree" id="itemThree">
+                  <input style="visibility: hidden;" type="text"  name="totalamount" id="totalAmount">
+					</fieldset>
+				</form>
+        
+  </body>
+</html>
