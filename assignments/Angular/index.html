@@ -28,11 +28,15 @@
         </li>
 			</ul>
 		</div>
+        </nav>
 
-		<div ng-app>
+		<div ng-app=“myModule”>
+         <div ng-controller=“myController”>
           <p>{{ 5/2 }}</p>
           <p>{{ 10 == 30 }}</p>
           <p>{{ 4 - 2 }}</p>
+          <p> {{ message }} </p>
+        </div>
        </div>
 		
   </body>
