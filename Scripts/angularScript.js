@@ -1,10 +1,10 @@
 
 
 // module
-var myApp = angular.module(“myModule”, []);
+var myA = angular.module(“myM”, []);
 // controller
-var myController = function($scope) {
+var myC = function($scope) {
     $scope.message = “angular file”;
 };
 // register 
-    myApp.controller(“myController”, myController);
+    myA.controller(“myC”, myC);
